@@ -1,0 +1,209 @@
+body{
+    margin: 0%;
+    font-family: 'Open sans';
+}
+
+
+/* Header */
+.header{
+    text-align: center;
+    margin-top: 32px;
+    font-family: 'Gentium Book';
+    font-size: 18px;
+}
+.header img{
+    height: 70px;
+    width: 60px;
+}
+.header .dept{
+    font-weight: 700;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+.header .school{
+    font-weight: normal;
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+
+/* Nav bar */
+.nav_bar{
+    background-color: #20206C;
+    width: auto;
+    margin: auto;
+    height: 40px;
+    text-align: center;
+    padding-top: 0.87em;
+   
+}
+.nav_bar li{
+    display: inline;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.nav_bar a{
+    text-align: center;
+    padding: 52px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Featured image */
+.featured_image {
+background-repeat: no-repeat;
+width: 100%;
+height: 100vh;
+background-size: cover;
+overflow: hidden;
+text-align: center;
+}
+.featured_image_text {
+    margin-top: 300px;
+    color: white;
+}
+.login_btn {
+border: none;
+outline: none;
+padding: 20px 30px;
+margin-bottom: 100%;
+background-color: white;
+width: 200px;
+}
+.new_student_btn {
+    border: none;
+    outline: none;
+    padding: 20px 30px;
+    margin-bottom: 10px;
+    background-color: #F4D167;
+    width: 200px;
+}
+
+
+/* Welcome note */
+.welcome img{
+    float: right;
+    height: 200px;
+    width: 200px;
+}
+.welcome{
+    overflow: auto;
+    margin-right: 500px;
+    margin-left: 175px;
+   
+}
+.welcome h4{
+    font-size: 24px;
+    font-weight: lighter;
+    margin-bottom: 0%;
+    color: #000637;
+}
+.welcome p{
+    font-size: 14px;
+    font-weight: 50;
+   
+}
+
+
+/* News */
+.news_section{
+    background-color: #EAFFE0;
+    padding-top: 50px;
+
+}
+.news_section h3{
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 0px;
+    margin-top: 8px;
+    padding-left: 50px;
+    color: #0D3A20;
+}
+.news_section p{
+    padding-left: 50px;
+    margin-top: 10px;
+}
+.news_grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+}
+.news_item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+    width: 300px;
+}
+ figure img {
+    width: 300px;
+    height: 200px;
+}
+.news_caption {
+    display: block;
+}
+.visit_blog_btn{
+    border: none;
+    outline: none;
+    background-color:#F00F0F;
+    color: white;
+    width: 160px;
+    padding: 20px 2px;
+    margin-top: 28px;
+    margin-bottom: 50px;
+}
+
+/* Clubs section */
+.club{
+    background-color: #E0E0E0;
+    text-align: center;
+}
+.club img{
+    width: 100%;
+    height: 504px;
+}
+.club p{
+    font-size: 20px;
+    margin-top: 4px;
+}
+.club_caption{
+    padding-bottom: 32px;
+    padding-top: 20px;
+    color: #950202;
+}
+
+
+/* Newsletter */
+.newsletter{
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+.newsletter p{
+    font-size: 24px;
+}
+.newsletter .field{
+    width: 500px;
+    height: 44px;
+}
+::placeholder{
+    padding-left: 20px;
+    font-size: 14px;
+    color: silver;
+    font-weight: thin;
+}
+.newsletter button{
+    width: 200px;
+    height: 48px;
+    border-color: #F4D167;
+    color: #F4D167;
+    font-size: medium;
+    background-color:#333333;
+}
+.social_icons{
+    height: 30px;
+}
+footer{
+    margin-top: 52px;
+    display: block;
+}
