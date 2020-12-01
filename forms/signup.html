@@ -2,7 +2,7 @@
     <head>
         <title>Sign up here</title>
         <meta charset ="utf-8">
-        <Link rel="stylesheet" href="../css/signup.css">
+        <Link rel="stylesheet" href="../css/regPages.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -12,7 +12,7 @@
     <body>
         <!-- Header -->
         <div class="tpl"> 
-            <div class="hfr">
+            <div class="logo">
                 <img src="../images/UI logo.png" alt="UI logo">
                 <h5 class="dept">DEPARTMENT OF COMPUTER SCIENCE</h5>
                 <h5 class="school">UNIVERSITY OF IBADAN</h5>
@@ -20,12 +20,12 @@
             
             <div class="fbtn">
                 <a href="login.html"><p>Login</p></a>
-                <span>New student</span>
+                <p>New student</p>
             </div>
         </div>
 
         <!-- Registration form section -->
-        <div id="frmstn">
+        <div class="frmstn">
             <h3>Registration for new students</h3>
 
             <div class="sect1">
@@ -38,15 +38,15 @@
                         <label class="lbl" for="email">School email</label><br>
                         <input type="text" id="sch_email" name="lname"><br>
                     </div>
-                    <div id="flfmfd">
+                    <div id="flfmfd1">
                         <label class="lbl" for="dob">Date of birth</label><br>
-                        <input type="text" id="dob" name="lname"><br>
+                        <input type="text" id="dob" name="dob"><br>
                         <label class="lbl" for="sex">Sex</label><br>
-                        <input type="text" id="sex" name="lname"><br>
+                        <input type="text" id="sex" name="sex"><br>
                     </div>
-                    <div id="flfmd">
-                        <label class="lbl" for="ph_num">Date of birth</label><br>
-                        <input type="text" id="dob" name="lname"><br>
+                    <div id="flfmfd2">
+                        <label class="lbl" for="ph_num">Phone number</label><br>
+                        <input type="text" id="dob" name="ph_num"><br>
                         <p class="lbl">Add number</p>
                     </div>
                 </form>
@@ -55,12 +55,12 @@
             <div class="sect2">
                 <form>
                     <div class="flds">
-                        <label class="lbl" for="fname">Matric number</label> <br>
-                        <input type="text" id="matricno" name="fname"> <br>
+                        <label class="lbl" for="matricno">Matric number</label> <br>
+                        <input type="text" id="matricno" name="matricno"> <br>
                     </div>
                     <div class="flds">
                         <label class="lbl" for="fname">Level</label> <br>
-                        <input type="text" id="level" name="fname"> <br>
+                        <input type="text" id="level" name="level"> <br>
                     </div>
                 </form>
             </div>
@@ -77,6 +77,5 @@
             </div>
             
         </div>
-
     </body>
 </html>

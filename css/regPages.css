@@ -1,8 +1,9 @@
 body{
     background-color: #FCFCFC;
+    font-family: "Open sans";
 }
 
-#frmstn{
+.frmstn{
     text-align: center;
 }
 
@@ -16,4 +17,10 @@ body{
 
 .sect3{
     background-color: #F4F7FA;
+}
+
+form::after{
+    content: ' ';
+    display: block;
+    height: 20px;
 }
