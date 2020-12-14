@@ -2,7 +2,7 @@
     <head>
         <title>Sign up here</title>
         <meta charset ="utf-8">
-        <Link rel="stylesheet" href="../css/regPages.css">
+        <Link rel="stylesheet" href="../css/registration_pages.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -11,16 +11,20 @@
 
     <body>
         <!-- Header -->
-        <div class="header"> 
-            <div class="header-logo"> 
-                <img src="../images/UI logo.png" alt="UI logo">
-                <h5 class="dept">DEPARTMENT OF COMPUTER SCIENCE</h5>
-                <h5 class="school">UNIVERSITY OF IBADAN</h5>
+        <div class="main-nav"> 
+            <div class="header">
+                <img class="header-logo" src="../images/UI logo.png" alt="UI logo">
+                <div class="header-title">
+                    <h5 class="dept">DEPARTMENT OF COMPUTER SCIENCE</h5>
+                    <h5 class="school">UNIVERSITY OF IBADAN</h5>
+                </div>
             </div>
-             
-            <div class="header-buttons">
-                <a href="login.html"><p>Login</p></a>
-                <p>New student</p>
+            
+            <div class="main-nav-items">
+                <ul>
+                    <li class="main-nav-item"> <a href="login.html"> Login </a> </li>
+                    <li class="main-nav-item"> <button> New student <button> </li>
+                </ul>
             </div>
         </div>
 
@@ -73,9 +77,10 @@
                         <p>Password must have eight (8) characters minimum </p>
                     </div>
                 </form>
-                <button class="password-button">Register</button>
             </div>
-            
         </div>
+
+        <button class="password-button">Register</button>
+        
     </body>
 </html>

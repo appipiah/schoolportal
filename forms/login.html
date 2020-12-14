@@ -1,8 +1,8 @@
 <html>
         <head>
-            <title>Sign up here</title>
+            <title>Login</title>
             <meta charset ="utf-8">
-            <Link rel="stylesheet" href="../css/regPages.css">
+            <Link rel="stylesheet" href="../css/registration_pages.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
             <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
             <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -10,36 +10,46 @@
     </head>
 
     <body>
-        <div class="header"> 
-            <div class="header-logo">
-                <img src="../images/UI logo.png" alt="UI logo">
-                <h5 class="dept">DEPARTMENT OF COMPUTER SCIENCE</h5>
-                <h5 class="school">UNIVERSITY OF IBADAN</h5>
+        <!-- header -->
+        <div class="main-nav"> 
+            <div class="header">
+                <img class="header-logo" src="../images/UI logo.png" alt="UI logo">
+                <span class="header-title">
+                    <h5>DEPARTMENT OF COMPUTER SCIENCE <br>
+                       <span class="name"> UNIVERSITY OF IBADAN </span>  </h5>
+                </span>
             </div>
             
-            <div class="header-buttons">
-              <p>Login</p>
-              <a href="signup.html"> <button> New student </button> </a>
+            <div class="main-nav-items-container">
+                <ul class="main-nav-items">
+                    <li class="main-nav-item login"> Login </li>
+                    <li class="main-nav-item"> <a href="signup.html"> <button class="signup-btn"> New student </button> </a> </li>
+                </ul>
             </div>
         </div>
 
+        <!-- forms section -->
         <div class="form-sections-container">
-            <h3>Login</h3>
+            <h3 style="color: #022B69;">Login</h3>
 
-            <div class="sect4">
+            <div class="form-section">
                 <form>
-                    <div class="form-field">
-                        <label for="email">Email</label> <br>
-                        <input type="text" id="email" name="email"><br>
-                    <div>
-                        <label for="password">Password</label> <br>
-                        <input type="text" id="password" name="password"><br>
+                    <div class="form-field top">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email"><br>
                     </div>
-                        
+                    <div class="form-field pass">
+                        <div class="head">
+                            <label for="password">Password</label><img src="../icons/view.svg" alt="" class="icon-img">
+                        </div>
+                        <input type="password" id="password" name="password"><br>
                     </div>
+                  <p class="forgot-password">Forgot password</p>
                 </form>
             </div>
         </div>
         
+        <button class="password-button">Register</button>
+
     </body>
 </html>
