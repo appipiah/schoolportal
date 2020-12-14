@@ -40,7 +40,7 @@ body {
     margin-right: 30px;
     font-size: 14px;
     color: #BDBDBD;
-    ;
+    text-decoration: none;
 
 }
 .signup-btn{
@@ -52,7 +52,7 @@ body {
     border: none;
 }
 
-/* form */
+/* form login-page */
 
 .form-sections-container{
     width: 600px;
@@ -70,14 +70,12 @@ body {
     border: none;
     height: 36px;
     margin-top: 8px;
+    border: rgb(235, 227, 227) 0.1px solid;
 }
 .top {
     margin-bottom: 20px;
 }
-/* .head {
-    display: flex;
-    justify-content: space-between;
-}*/
+
 .icon-img {
     width: 16px;
     margin-top: 39px;
@@ -91,6 +89,7 @@ body {
     display: block;
     padding: 14px 24px;
     margin: 0 auto;
+    margin-bottom: 56px;
     background: #022B69;
     font-size: 15px;
     color: white;
@@ -100,4 +99,44 @@ body {
 }
 label{
     color: #4F4F4F;
+}
+.forgot-password{
+    color: #2079F6;
+    font-size: small;
+    text-align: right;
+}
+
+/* signup-page */
+
+/* Header */
+
+.active-login{
+    text-decoration: none;
+    color: #022B69;
+    font-weight: bold;
+}
+.inactive{
+    color: #cecdcd;
+    background-color: #F2F2F2;
+}
+
+/* Form */
+.two-column{
+    display: flex;
+    justify-content: space-between;
+}
+.below{
+    margin-top: 32px;
+}
+.password-hint{
+    font-size: small;
+    color: #8095B4;
+}
+.value-option{
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    height: 36px;
+    margin-top: 8px;
+    border: rgb(235, 227, 227) 0.1px solid;
 }

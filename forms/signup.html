@@ -14,73 +14,80 @@
         <div class="main-nav"> 
             <div class="header">
                 <img class="header-logo" src="../images/UI logo.png" alt="UI logo">
-                <div class="header-title">
-                    <h5 class="dept">DEPARTMENT OF COMPUTER SCIENCE</h5>
-                    <h5 class="school">UNIVERSITY OF IBADAN</h5>
-                </div>
+                <span class="header-title">
+                    <h5>DEPARTMENT OF COMPUTER SCIENCE <br>
+                       <span class="name"> UNIVERSITY OF IBADAN </span>  </h5>
+                </span>
             </div>
             
-            <div class="main-nav-items">
-                <ul>
-                    <li class="main-nav-item"> <a href="login.html"> Login </a> </li>
-                    <li class="main-nav-item"> <button> New student <button> </li>
+            
+            <div class="main-nav-item">
+                <ul class="main-nav-items">
+                    <li class="main-nav-item login"> <a href="login.html" class="active-login"> Login </a> </li>
+                    <li class="main-nav-item"> <button class="signup-btn inactive"> New student </button> </li>
                 </ul>
             </div>
         </div>
 
-        <!-- Registration form section -->
+        <!-- form section -->
         <div class="form-sections-container">
-            <h3>Registration for new students</h3>
+            <h3 style="color: #022B69;">Registration for new students</h3>
 
             <div class="form-section">
                 <form>
-                    <div class="form-field">
+                    <div class="form-field top">
                         <label class="lbl" for="fname">Full name</label><br>
                         <input type="text" id="fname" name="fname"><br>
                     </div>
-                    <div class="form-field">
+                    <div class="form-field top">
                         <label class="lbl" for="email">School email</label><br>
                         <input type="text" id="sch_email" name="lname"><br>
                     </div>
-                    <div id="two-column-field">
-                        <label class="lbl" for="dob">Date of birth</label><br>
-                        <input type="text" id="dob" name="dob"><br>
-                        <label class="lbl" for="sex">Sex</label><br>
-                        <input type="text" id="sex" name="sex"><br>
+                    <div class="form-field top two-column">
+                        <div class="form-field top">
+                            <label class="lbl" for="dob">Date of birth</label>
+                            <input type="date" id="birthday" name="birthday">
+                        </div>
+                        <div class="sex">
+                            <label class="lbl" for="sex">Sex</label><br>
+                        <select class="value-option" id="sex" name="sex">
+                          <option value="Female">Female</option>
+                          <option value="Male">Male</option>
+                          <option value="Other">Other</option>
+                        </select>
+                        
+                        </div>
                     </div>
-                    <div id="two-column-field-2">
+                    <div class="form-field top">
                         <label class="lbl" for="ph_num">Phone number</label><br>
                         <input type="text" id="dob" name="ph_num"><br>
-                        <p class="lbl">Add number</p>
                     </div>
                 </form>
             </div>
     
-            <div class="form-section">
+            <div class="form-section below">
                 <form>
-                    <div class="form-field">
+                    <div class="form-field top">
                         <label class="lbl" for="matricno">Matric number</label> <br>
                         <input type="text" id="matricno" name="matricno"> <br>
                     </div>
-                    <div class="form-field">
+                    <div class="form-field top">
                         <label class="lbl" for="fname">Level</label> <br>
                         <input type="text" id="level" name="level"> <br>
                     </div>
                 </form>
             </div>
     
-            <div class="form-section">
+            <div class="form-section password-reg">
                 <form>
-                    <div class="form-field">
-                        <label class="lbl" for="password"> Password </label> <br>
-                        <input type="text" id="matricno" name="fname"> <br>
-                        <p>Password must have eight (8) characters minimum </p>
+                    <div class="form-field pass">
+                        <label for="password"> Enter password </label><img src="../icons/view.svg" alt="" class="icon-img">
+                        <input type="text" id="password" name="fname"> <br>
                     </div>
+                    <p class="password-hint">Password must have eight (8) characters minimum </p>
                 </form>
             </div>
         </div>
-
         <button class="password-button">Register</button>
-        
     </body>
 </html>
